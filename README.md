@@ -1,6 +1,6 @@
 # Bayut API Postman Collection
 
-A ready-to-use Postman collection for the [Bayut Property Data API](https://rapidapi.com/happyendpoint/api/bayut14/) - covers all endpoints with pre-filled example requests, environment variables, and test scripts.
+A ready-to-use Postman collection for the [Bayut Property Data API](https://rapidapi.com/happyendpoint/api/uae-real-estate3/) - covers all endpoints with pre-filled example requests, environment variables, and test scripts.
 
 Built by [Happy Endpoint](https://happyendpoint.com) - API docs at [bayutapi.dev](https://bayutapi.dev).
 
@@ -13,7 +13,7 @@ Built by [Happy Endpoint](https://happyendpoint.com) - API docs at [bayutapi.dev
 In Postman, click **Import** and paste this URL:
 
 ```
-https://raw.githubusercontent.com/yourusername/bayut-api-postman-collection/main/bayut-api.postman_collection.json
+https://raw.githubusercontent.com/happyendpointhq/bayut-api-postman-collection/main/bayut-api.postman_collection.json
 ```
 
 ### Option 2 - Download and import
@@ -31,10 +31,10 @@ In Postman, create a new environment called **Bayut API** with these variables:
 | Variable | Value |
 |---|---|
 | `rapidapi_key` | Your RapidAPI key |
-| `base_url` | `https://bayut14.p.rapidapi.com` |
+| `base_url` | `https://uae-real-estate3.p.rapidapi.com` |
 | `location_id` | `5003` (Dubai Marina - change as needed) |
 
-Get your API key by subscribing here: https://rapidapi.com/happyendpoint/api/bayut14/
+Get your API key by subscribing here: https://rapidapi.com/happyendpoint/api/uae-real-estate3/
 
 ### 2. Select the environment
 
@@ -86,7 +86,7 @@ GET {{base_url}}/health
 
 Headers:
 ```
-x-rapidapi-host: bayut14.p.rapidapi.com
+x-rapidapi-host: uae-real-estate3.p.rapidapi.com
 x-rapidapi-key: {{rapidapi_key}}
 ```
 
@@ -495,7 +495,7 @@ All errors follow this format:
 
 ## Links
 
-- API on RapidAPI: https://rapidapi.com/happyendpoint/api/bayut14/
+- API on RapidAPI: https://rapidapi.com/happyendpoint/api/uae-real-estate3/
 - Full documentation: https://bayutapi.dev
 - Happy Endpoint: https://happyendpoint.com
 - Twitter: https://x.com/happyendpointhq
