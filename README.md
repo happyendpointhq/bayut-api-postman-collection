@@ -503,8 +503,61 @@ All errors follow this format:
 
 Need bulk Bayut data (100K+ records)? Email happyendpointhq@gmail.com
 
+
 ---
 
-## License
+## Using this API from Claude, Cursor, or another MCP client
 
-MIT
+RapidAPI hosts an MCP server, so you can query this API from an AI assistant
+without writing any code:
+
+```json
+{
+  "mcpServers": {
+    "Bayut UAE Real Estate": {
+      "command": "npx",
+      "args": [
+        "mcp-remote",
+        "https://mcp.rapidapi.com",
+        "--header",
+        "x-api-host: uae-real-estate3.p.rapidapi.com",
+        "--header",
+        "x-api-key: YOUR_RAPIDAPI_KEY"
+      ]
+    }
+  }
+}
+```
+
+| Client | Config path |
+|---|---|
+| Claude Desktop (macOS) | `~/Library/Application Support/Claude/claude_desktop_config.json` |
+| Claude Desktop (Windows) | `%APPDATA%\Claude\claude_desktop_config.json` |
+| Cursor | `~/.cursor/mcp.json` |
+| Claude Code | `.mcp.json` in your project root |
+
+---
+
+## Related repos
+
+- [bayut-api](https://github.com/happyendpointhq/bayut-api) - full endpoint documentation
+- [bayut-api-python-examples](https://github.com/happyendpointhq/bayut-api-python-examples) - Python client and nine runnable examples
+- [bayut-api-javascript-nextjs](https://github.com/happyendpointhq/bayut-api-javascript-nextjs) - working Next.js 15 app
+- [uae-real-estate-data-guide](https://github.com/happyendpointhq/uae-real-estate-data-guide) - every route to UAE property data
+
+---
+
+## About Happy Endpoint
+
+[Happy Endpoint](https://happyendpoint.com) builds and maintains real-time data
+APIs for property portals, retailers, and marketplaces. All APIs are available on
+RapidAPI with a free tier.
+
+- Catalogue: [happyendpoint.com/library](https://happyendpoint.com/library)
+- Datasets: [happyendpoint.com/datasets](https://happyendpoint.com/datasets)
+- Documentation: [docs.happyendpoint.com](https://docs.happyendpoint.com)
+- Contact: happyendpointhq@gmail.com
+
+## Licence
+
+MIT. See [LICENSE](LICENSE).
