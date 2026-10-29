@@ -6,6 +6,15 @@ Built by [Happy Endpoint](https://happyendpoint.com) - API docs at [bayutapi.dev
 
 ---
 
+## Open it on Postman
+
+The collection is also in a public Postman workspace, with published documentation:
+
+- Fork and run: https://www.postman.com/happyendpoints-team/bayut-api
+- Documentation: https://documenter.getpostman.com/view/56555678/2sBYHVweqr
+
+---
+
 ## Import the collection
 
 ### Option 1 - Import from URL
